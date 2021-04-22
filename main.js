@@ -156,6 +156,7 @@ class Main {
 
         this.nextButton.style.display = "none";
         this.stageTitle.innerText = "Continue Training";
+        this.stageTitle.style.color = "#012D69"
         this.stageInstruction.innerText = "Add Gesture Name and Train.";
 
         //Start custom gesture training process
