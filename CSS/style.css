@@ -3,7 +3,23 @@ Style Sheet for American Sign Language Translator. This file is responsible for 
 
 Author: Sufiyaan Nadeem
 */
-
+.borderderecho{
+  background:#FF0000;
+  position: fixed;
+  width: 20px;
+  height: 30%;
+  bottom: 70%;
+  right: 99%;
+  
+}
+.borderizquierdo{
+  background:#FF0000;
+  position: fixed;
+  left: 99%;
+  top: 70%;
+  width: 20px;
+  height: 30%;
+}
 body {
   font-family: "Google Sans", "sans-serif";
   margin: 0;
