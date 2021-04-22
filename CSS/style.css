@@ -223,17 +223,17 @@ button:active {
 }
 
 .clearButton {
-  padding: 4px 10px;
-  font-size: 18px;
-  color: black;
+  padding: 5px 12px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
   background-color: #cc0000;
   margin: 0 auto;
 }
 
 .trainBtn {
-  padding: 4px 10px;
-  font-size: 18px;
-  color: black;
+  padding: 5px 12px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
   background-color: #47aa42;
   margin: 0 auto;
   margin-right: 20px;
