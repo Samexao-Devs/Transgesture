@@ -29,27 +29,31 @@
     
         <div id="welcomeScreen">
             <img src="Images/T300.png" >
-            <h1>Welcome to Transgesture</h1>
-            <h3 class="animated fadeInUp delay-2s">Samexao DEVS</h3>
-            <img src="Images/SXD100.png" >
+            <h1>Welcome to <span style="color:#012D69">Trans</span><span style="color:#FF0000">gesture</span> </h1>
+            <h3 class="animated fadeInUp delay-2s" style="font-size: 20px" ><span style="color:#64CBD6";>Samexao</span><span style="color:#D57A41">Devs</span></h3>
+            <img src="Images/SXD100.png" height="50" width="50" >
         </div>
+<<<<<<< Updated upstream
         <button id="proceedButton">Proceed</button>
 
         <div class="borderizquierdo">
 
         </div>
         
+=======
+        <button  id="proceedButton">Proceed</button>
+>>>>>>> Stashed changes
     </div>
 
     <!--Title bar explains the stage of the program 
     (eg: instructions for Training, Prediction, and Video Chat)-->
     <div id="titleBar">
-        <h1 id="stage">Train Gestures</h1>
-        <h3 id="steps">Train about 30 samples of your Start Gesture and 30 for your idle, Stop Gesture.</h3>
+        <h1 id="stage"> <img src="Images/T40.png"><span style="color:#012D69"> Train</span><span style="color:#FF0000">Gestures</span> </h1>
+        <h3 id="steps" style="color: Black">Train about 30 samples of your Start Gesture and 30 for your idle, Stop Gesture.</h3>
         <button id="nextButton" class="animated flash delay-3s">Next</button>
         <button id="predictButton" class="animated flash slideInRight faster">Translate</button>
         <button id="backButton" class="animated slideInLeft faster">Back to Training</button>
-        <button id="videoCallBtn" class="videoCallBtn animated slideInRight faster">Video Call</button>
+        <button id="videoCallBtn" class="videoCallBtn animated slideInRight faster"></button>
     </div>
 
     <!--Status bar shows the status of translation-->
@@ -65,10 +69,12 @@
         <div id="initialTrainingHolder">
             <img src="" alt="checkmark" id="checkmark_startButton" class="checkMark">
             <button id="startButton" class="trainButton ">Start Gesture</button>
+            <b></b>
             <button id="clear_startButton" class="clearButton">Clear</button>
             <h3 id="counter_startButton" class="counter"></h3>
 
             <button id="stopButton" class="trainButton ">Stop Gesture</button>
+            <b></b>
             <button id="clear_stopButton" class="clearButton">Clear</button>
             <h3 id="counter_stopButton" class="counter"></h3>
             <img src="" alt="checkmark" id="checkmark_stopButton" class="checkMark">

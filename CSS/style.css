@@ -1,6 +1,5 @@
-/*
-Style Sheet for American Sign Language Translator. This file is responsible for the aesthetics of the Translator
 
+<<<<<<< Updated upstream
 Author: Sufiyaan Nadeem
 */
 .borderderecho{
@@ -20,6 +19,9 @@ Author: Sufiyaan Nadeem
   width: 20px;
   height: 30%;
 }
+=======
+
+>>>>>>> Stashed changes
 body {
   font-family: "Google Sans", "sans-serif";
   margin: 0;
@@ -177,7 +179,7 @@ button {
   text-align: center;
   /* bring your own prefixes */
   font-family: "Google Sans", "sans-serif";
-  background-color: #000000;
+  background-color: #012D69;
   color: white;
   font-size: 25px;
   padding: 8px 25px;
@@ -275,13 +277,13 @@ button:active {
   z-index: 2;
   position: fixed;
   display: none;
-  background: blue;
+  background: whitesmoke;
 }
 
 #status {
   width: 300px;
   height: 30px;
-  background-color: black;
+  background-color:#012D69;
   position: absolute;
   z-index: 3;
   left: 0%;
@@ -383,8 +385,8 @@ button:active {
   width: 215px;
   height: 200px;
   margin: 17px;
-  background-color: white;
-  color: black;
+  background-color: #30393f;
+  color: ghostwhite;
   text-align: center;
   cursor: pointer;
   border-radius: 10px;
@@ -403,7 +405,7 @@ button:active {
   width: 315px;
   height: 180px;
   margin-left: 100px;
-  background-color: black;
+  background-color: #012D69;
   color: white;
   text-align: center;
   cursor: pointer;
