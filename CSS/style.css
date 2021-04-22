@@ -149,8 +149,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 #videoCall {
   display: none;
-  width: 650px;
-  height: 370px;
+  width: 0px;
+  height: 0px;
   border: none;
   overflow: hidden;
   left: 2.5%;
@@ -254,7 +254,7 @@ button:active {
 
 #predictButton {
   top: 30%;
-  right: 2.5%;
+  right: 2%;
   z-index: 2;
   position: fixed;
   display: none;
@@ -272,9 +272,11 @@ button:active {
   top: 30%;
   right: 2.5%;
   z-index: 2;
+  height: 1px;
+  width: 1px;
   position: fixed;
   display: none;
-  background: whitesmoke;
+  background: white;
 }
 
 #status {
